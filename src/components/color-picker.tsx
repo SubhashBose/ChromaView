@@ -43,7 +43,10 @@ export default function ColorPicker({
       if (color.toLowerCase() !== currentHex.toLowerCase()) {
         const newRgb = hexToRgb(color);
         if (newRgb) {
-          setHsv(rgbToHsv(newRgb));
+          const newHsv = rgbToHsv(newRgb);
+          if (newHsv.h !== hsv.h || newHsv.s !== hsv.s || newHsv.v !== hsv.v) {
+            setHsv(newHsv);
+          }
         }
       }
     }
