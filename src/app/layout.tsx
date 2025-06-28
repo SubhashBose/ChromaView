@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'ChromaLink',
+  title: 'ChromaView',
   description: 'Pick and share colors seamlessly.',
 };
 
