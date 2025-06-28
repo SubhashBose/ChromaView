@@ -1,5 +1,4 @@
-# Firebase Studio
 
-This is a NextJS starter in Firebase Studio.
+**A elegant fullscreen color picker with shareable link.** 
 
-To get started, take a look at src/app/page.tsx.
+Compatible for both desktop and mobile browsers.
