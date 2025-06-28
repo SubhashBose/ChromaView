@@ -1,6 +1,7 @@
 import type {NextConfig} from 'next';
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
+var isGithubActions = false;
 
 let assetPrefix = '';
 let basePath = '';
